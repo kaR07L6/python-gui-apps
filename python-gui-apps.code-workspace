@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../python-gui-experiments/.vscode"
+		},
+		{
+			"path": "../python-gui-experiments/python-gui-experiments"
+		}
+	],
+	"settings": {}
+}
