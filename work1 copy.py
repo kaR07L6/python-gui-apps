@@ -10,33 +10,52 @@ window.configure(bg=bg_color)
 # ↑↑↑ お約束のコード ↑↑↑
 
 
-# 画面に出力
-def button_acyion():
-    user_input = entry1.get()
-    label1.config(text="entry1" + "buttan" + , {user_input}!")
+# 
+def button_acyion1():
+    num1 = entry1.get()
+    num2 = entry2.get()
+    num3 = int(num1) - int(num2)
+    label1.config(text=f"{num1} - {num2} = {num3}")
+
+def button_acyion2():
+    num1 = entry1.get()
+    num2 = entry2.get()
+    num3 = int(num1) - int(num2)
+    label1.config(text=f"{num1} - {num2} = {num3}")
+
+def button_acyion3():
+    num1 = entry1.get()
+    num2 = entry2.get()
+    num3 = int(num1) - int(num2)
+    label1.config(text=f"{num1} - {num2} = {num3}")
+
+def button_acyion4():
+    num1 = entry1.get()
+    num2 = entry2.get()
+    num3 = int(num1) - int(num2)
+    label1.config(text=f"{num1} - {num2} = {num3}")
 
 
 # 入力フィールドの作成
-entry1 = x
 entry1 = tk.Entry(window, bg=fg_color, fg=bg_color)
 entry1.pack(pady=10)
 entry2 = tk.Entry(window, bg=fg_color, fg=bg_color)
 entry2.pack(pady=10)
 
 # ボタンの作成
-button1 = tk.Button(window, text="+", command=button_action)
+button1 = tk.Button(window, text="+", command=button_action1)
 button1.pack(pady=10)
-button2 = tk.Button(window, text="-", command=button_action)
+button2 = tk.Button(window, text="-", command=button_action2)
 button2.pack(pady=10)
-button3 = tk.Button(window, text="×", command=button_action)
+button3 = tk.Button(window, text="×", command=button_action3)
 button3.pack(pady=10)
-button4 = tk.Button(window, text="÷", command=button_action)
+button4 = tk.Button(window, text="÷", command=button_action4)
 button4.pack(pady=10)
 
 
 
 # 出力ラベルの作成
-label1 = tk.Label(window,text="Hello" , bg=bg_color,fg=fg_color,)
+label1 = tk.Label(window,text="" , bg=bg_color,fg=fg_color)
 label1.pack(pady=10)
 
 # ↓↓↓ お約束のコード ↓↓↓
