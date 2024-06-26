@@ -55,7 +55,7 @@ button1 = tk.Button(window, text="変換", command=deta)
 button1.pack(pady=10)
 
 # 出力ラベル
-label1 = tk.Label(window, text="", bg=fg_color, fg=bg_color)
+label1 = tk.Label(window, text="西暦を入力してください", bg=fg_color, fg=bg_color)
 label1.pack(pady=10)
 
 # 　↓↓↓ お約束のコード　↓↓↓
