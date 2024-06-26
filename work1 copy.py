@@ -11,25 +11,25 @@ window.configure(bg=bg_color)
 
 
 # 
-def button_acyion1():
+def button_action1():
     num1 = entry1.get()
     num2 = entry2.get()
     num3 = int(num1) - int(num2)
     label1.config(text=f"{num1} - {num2} = {num3}")
 
-def button_acyion2():
+def button_action2():
     num1 = entry1.get()
     num2 = entry2.get()
     num3 = int(num1) - int(num2)
     label1.config(text=f"{num1} - {num2} = {num3}")
 
-def button_acyion3():
+def button_action3():
     num1 = entry1.get()
     num2 = entry2.get()
     num3 = int(num1) - int(num2)
     label1.config(text=f"{num1} - {num2} = {num3}")
 
-def button_acyion4():
+def button_action4():
     num1 = entry1.get()
     num2 = entry2.get()
     num3 = int(num1) - int(num2)
